@@ -32,7 +32,7 @@
         <field name="active">False</field>
     </record>
 
-<!--    This is to remove the about section fom the settings-->
+    <!--    This is to remove the about section fom the settings-->
     <record id="res_config_settings_view_form_about" model="ir.ui.view">
         <field name="name">res.config.settings.view.form.inherit.about</field>
         <field name="model">res.config.settings</field>

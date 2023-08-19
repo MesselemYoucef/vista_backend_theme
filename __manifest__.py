@@ -44,6 +44,7 @@
             '/vista_backend_theme/static/src/scss/theme.scss',
             '/vista_backend_theme/static/src/js/systray.js',
             '/vista_backend_theme/static/src/js/load.js',
+            '/vista_backend_theme/static/src/js/changeword.js',
             '/vista_backend_theme/static/src/js/chrome/sidebar_menu.js',
         },
         'web.assets_frontend': {
