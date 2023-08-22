@@ -71,7 +71,7 @@ class Theme(models.TransientModel):
             if menu.name == 'Dashboards':
                 img_path = get_module_resource(
                     'vista_backend_theme', 'static', 'src', 'img', 'icons',
-                    'dashboards.png')
+                    'elearning.png')
                 menu.write({'web_icon_data': base64.b64encode(
                     open(img_path, "rb").read())})
             if menu.name == 'Sales':
@@ -288,7 +288,7 @@ class Theme(models.TransientModel):
                 img_path = get_module_resource(
                     'vista_backend_theme', 'static', 'src', 'img',
                     'icons_green',
-                    'dashboards.png')
+                    'elearning.png')
                 menu.write({'web_icon_data': base64.b64encode(
                     open(img_path, "rb").read())})
             if menu.name == 'Sales':
