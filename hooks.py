@@ -22,7 +22,7 @@ def test_pre_init_hook(cr):
             menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
         if menu.name == 'Dashboards':
             img_path = get_module_resource(
-                'vista_backend_theme', 'static', 'src', 'img', 'icons', 'dashboards.png')
+                'vista_backend_theme', 'static', 'src', 'img', 'icons', 'elearning.png')
             menu.write({'web_icon_data': base64.b64encode(open(img_path, "rb").read())})
         if menu.name == 'Sales':
             img_path = get_module_resource(
